@@ -46,29 +46,75 @@ body {
     color: aliceblue;
     font-family: 'ZCOOL QingKe HuangYou', cursive;
 }
+
+@media only screen and (max-device-width: 600px) {
+    h1 {
+        font-size:80px;
+        animation: fadein 1.5s;
+        -moz-animation: fadein 1.5s; /* Firefox */
+        -webkit-animation: fadein 1.5s; /* Safari and Chrome */
+        -o-animation: fadein 1.5s; /* Opera */
+    }
+}
+
 h1 {
-    font-size: 80px;
+    font-size: 110px;
     animation: fadein 1.5s;
     -moz-animation: fadein 1.5s; /* Firefox */
     -webkit-animation: fadein 1.5s; /* Safari and Chrome */
     -o-animation: fadein 1.5s; /* Opera */
 }
+
+@media only screen and (max-device-width: 600px) {
+    h2 {
+        font-size:50px;
+        animation: fadein 1.5s;
+        -moz-animation: fadein 1.5s; /* Firefox */
+        -webkit-animation: fadein 1.5s; /* Safari and Chrome */
+        -o-animation: fadein 1.5s; /* Opera */
+    }
+}
+
 h2 {
-    font-size: 50px;
+    font-size: 90px;
     animation: fadein 1.5s;
     -moz-animation: fadein 1.5s; /* Firefox */
     -webkit-animation: fadein 1.5s; /* Safari and Chrome */
     -o-animation: fadein 1.5s; /* Opera */
 }
+
+@media only screen and (max-device-width: 600px) {
+    p, li {
+        font-size: 25px;
+        animation: fadein 1.5s;
+        -moz-animation: fadein 1.5s; /* Firefox */
+        -webkit-animation: fadein 1.5s; /* Safari and Chrome */
+        -o-animation: fadein 1.5s; /* Opera */
+    }
+}
+
 p, li {
-    font-size: 25px;
+    font-size: 40px;
     animation: fadein 1.5s;
     -moz-animation: fadein 1.5s; /* Firefox */
     -webkit-animation: fadein 1.5s; /* Safari and Chrome */
     -o-animation: fadein 1.5s; /* Opera */
 }
+
+@media only screen and (max-device-width: 600px) {
+    a {
+        font-size: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+        animation: fadein 1.5s;
+        -moz-animation: fadein 1.5s; /* Firefox */
+        -webkit-animation: fadein 1.5s; /* Safari and Chrome */
+        -o-animation: fadein 1.5s; /* Opera */
+    }
+}
+
 a {
-    font-size: 40px;
+    font-size: 60px;
     padding-left: 20px;
     padding-right: 20px;
     animation: fadein 1.5s;
@@ -80,9 +126,13 @@ a {
 a:hover{
     color: rgb(200, 207, 214);
 }
-
+@media only screen and (max-device-width: 600px) {
+    #introP {
+        font-size: 40px;
+    }
+}
 #introP {
-    font-size: 40px;
+    font-size: 60px;
 }
 
 @keyframes fadein {
