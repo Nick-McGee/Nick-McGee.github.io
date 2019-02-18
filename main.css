@@ -18,15 +18,17 @@
         /* border: 3px solid green; */
     }
 }
-
-.intro {
-    background-color: #1f2833;
-    padding-right: 5%;
-    padding-left: 5%;
-    padding-top: 5%;
-    text-align: center;
-    /* border: 3px solid green; */
+@media only screen and (min-device-width: 600px) {
+    .intro {
+        background-color: #1f2833;
+        padding-right: 5%;
+        padding-left: 5%;
+        padding-top: 5%;
+        text-align: center;
+        /* border: 3px solid green; */
+    }
 }
+
 .info {
     padding-right: 5%;
     padding-left: 5%;
@@ -65,7 +67,7 @@ body {
     }
 
     p, li {
-        font-size: 40px;
+        font-size: 50px;
         animation: fadein 1.5s;
         -moz-animation: fadein 1.5s; /* Firefox */
         -webkit-animation: fadein 1.5s; /* Safari and Chrome */
