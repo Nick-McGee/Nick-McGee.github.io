@@ -49,41 +49,61 @@ body {
 
 @media only screen and (max-device-width: 600px) {
     h1 {
+        font-size:120px;
+        animation: fadein 1.5s;
+        -moz-animation: fadein 1.5s; /* Firefox */
+        -webkit-animation: fadein 1.5s; /* Safari and Chrome */
+        -o-animation: fadein 1.5s; /* Opera */
+    }
+
+    h2 {
         font-size:80px;
         animation: fadein 1.5s;
         -moz-animation: fadein 1.5s; /* Firefox */
         -webkit-animation: fadein 1.5s; /* Safari and Chrome */
         -o-animation: fadein 1.5s; /* Opera */
     }
-}
 
-h1 {
-    font-size: 110px;
-    animation: fadein 1.5s;
-    -moz-animation: fadein 1.5s; /* Firefox */
-    -webkit-animation: fadein 1.5s; /* Safari and Chrome */
-    -o-animation: fadein 1.5s; /* Opera */
-}
-
-@media only screen and (max-device-width: 600px) {
-    h2 {
-        font-size:50px;
+    p, li {
+        font-size: 40px;
         animation: fadein 1.5s;
         -moz-animation: fadein 1.5s; /* Firefox */
         -webkit-animation: fadein 1.5s; /* Safari and Chrome */
         -o-animation: fadein 1.5s; /* Opera */
     }
+
+    a {
+        font-size: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+        animation: fadein 1.5s;
+        -moz-animation: fadein 1.5s; /* Firefox */
+        -webkit-animation: fadein 1.5s; /* Safari and Chrome */
+        -o-animation: fadein 1.5s; /* Opera */
+    }
+
+    #introP {
+        font-size: 50px;
+    }
 }
 
-h2 {
-    font-size: 90px;
-    animation: fadein 1.5s;
-    -moz-animation: fadein 1.5s; /* Firefox */
-    -webkit-animation: fadein 1.5s; /* Safari and Chrome */
-    -o-animation: fadein 1.5s; /* Opera */
-}
+@media only screen and (min-device-width: 600px) {
+    h1 {
+        font-size: 80px;
+        animation: fadein 1.5s;
+        -moz-animation: fadein 1.5s; /* Firefox */
+        -webkit-animation: fadein 1.5s; /* Safari and Chrome */
+        -o-animation: fadein 1.5s; /* Opera */
+    }
 
-@media only screen and (max-device-width: 600px) {
+    h2 {
+        font-size: 50px;
+        animation: fadein 1.5s;
+        -moz-animation: fadein 1.5s; /* Firefox */
+        -webkit-animation: fadein 1.5s; /* Safari and Chrome */
+        -o-animation: fadein 1.5s; /* Opera */
+    }
+
     p, li {
         font-size: 25px;
         animation: fadein 1.5s;
@@ -91,17 +111,7 @@ h2 {
         -webkit-animation: fadein 1.5s; /* Safari and Chrome */
         -o-animation: fadein 1.5s; /* Opera */
     }
-}
 
-p, li {
-    font-size: 40px;
-    animation: fadein 1.5s;
-    -moz-animation: fadein 1.5s; /* Firefox */
-    -webkit-animation: fadein 1.5s; /* Safari and Chrome */
-    -o-animation: fadein 1.5s; /* Opera */
-}
-
-@media only screen and (max-device-width: 600px) {
     a {
         font-size: 40px;
         padding-left: 20px;
@@ -111,28 +121,13 @@ p, li {
         -webkit-animation: fadein 1.5s; /* Safari and Chrome */
         -o-animation: fadein 1.5s; /* Opera */
     }
-}
 
-a {
-    font-size: 60px;
-    padding-left: 20px;
-    padding-right: 20px;
-    animation: fadein 1.5s;
-    -moz-animation: fadein 1.5s; /* Firefox */
-    -webkit-animation: fadein 1.5s; /* Safari and Chrome */
-    -o-animation: fadein 1.5s; /* Opera */
-}
-
-a:hover{
-    color: rgb(200, 207, 214);
-}
-@media only screen and (max-device-width: 600px) {
     #introP {
-        font-size: 40px;
+        font-size: 60px;
     }
 }
-#introP {
-    font-size: 60px;
+a:hover{
+    color: rgb(200, 207, 214);
 }
 
 @keyframes fadein {
