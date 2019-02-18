@@ -7,6 +7,7 @@
         /* border: 3px solid yellow; */
     }
 }
+
 @media only screen and (max-device-width: 600px) {
     .intro {
         background-color: #1f2833;
@@ -18,17 +19,15 @@
         /* border: 3px solid green; */
     }
 }
-@media only screen and (min-device-width: 600px) {
-    .intro {
-        background-color: #1f2833;
-        padding-right: 5%;
-        padding-left: 5%;
-        padding-top: 5%;
-        text-align: center;
-        /* border: 3px solid green; */
-    }
-}
 
+.intro {
+    background-color: #1f2833;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 5%;
+    text-align: center;
+    /* border: 3px solid green; */
+}
 .info {
     padding-right: 5%;
     padding-left: 5%;
