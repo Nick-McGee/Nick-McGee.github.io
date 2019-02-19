@@ -1,6 +1,5 @@
 /*Coding IDE Background*/
 body {
-    /*background-color: #2c3949;*/
     background-color: #1D1F20;
 }
 
@@ -14,9 +13,7 @@ body {
 @media only screen and (min-device-width: 600px) {
     .infoAndIntro {
         display: flex;
-        justify-content: center;
-        position: fixed;
-        top: 0; right: 0; bottom: 0; left: 0;
+        margin: -8px;
         /*border: 1px solid yellow;*/
     }
 }
@@ -54,36 +51,26 @@ body {
 
 /*Divs for console and code*/
 .info {
-    position: fixed;
+    display: flexbox;
     padding: 2%;
-    width: 65%;
-    bottom: 0; top: 0; left: 0;
+    width: 60%;
+    margin: -8px;
     /*border: 1px solid red;*/
 }
 .console {
-    background-color:black;
-    position: fixed;
+    display: flexbox;
     padding: 1%;
-    top: 0; bottom: 0; right: 0;
-    width: 30%;
-    height: 100%;
+    width: 40%;
+    margin: -8px;
+    background-color:black;
     /*border: 1px solid green;*/
 }
 
 /*Text size on desktop*/
 @media only screen and (min-device-width: 600px) {
-
-    p {
+    p, a{
         font-size: 15px;
         margin: 0px;
-        animation: fadein 1.5s;
-        -moz-animation: fadein 1.5s; /* Firefox */
-        -webkit-animation: fadein 1.5s; /* Safari and Chrome */
-        -o-animation: fadein 1.5s; /* Opera */
-    }
-
-    a {
-        font-size: 15px;
         animation: fadein 1.5s;
         -moz-animation: fadein 1.5s; /* Firefox */
         -webkit-animation: fadein 1.5s; /* Safari and Chrome */
