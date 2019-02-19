@@ -43,8 +43,7 @@ body {
         /*border: 1px solid yellow;*/
     }
     .info {
-        width: 0%;
-        height: 0%;
+        visibility: hidden;
         /*border: 1px solid red;*/
     }
     .console {
