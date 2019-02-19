@@ -2,41 +2,111 @@
 <html>
     <head>
         <title>Nicholas McGee</title>
-        <style>@import url('https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou');</style>
+        <style>@import url('https://fonts.googleapis.com/css?family=Inconsolata');</style>
         <link rel="stylesheet" href="main.css">
     </head>
     <body>
         <div class = infoAndIntro>
-            <div class = "intro">
-                <h1>Nicholas McGee</h1>
-                <div>
-                    <a href="https://github.com/Nick-McGee" target="_blank">Github</a>
-                    <a href="https://www.linkedin.com/in/nicholas-mcgee-35b799177/" target="_blank">LinkedIn</a>
-                </div>
-                <p id = "introP">Computer Science Student</p>
-            </div>
             <div class = "info">
                 <div>
-                    <h2>Education</h2>
-                    <p>I'm is a third year student at UBC Okanagan, majoring in Computer Science.</p>
-                    <p>Experience:</p>
-                    <ul style="list-style-type: none">
-                        <li>Java</li>
-                    </ul>
-                    <p>Learning: </p>
-                    <ul style="list-style-type: none">
-                            <li>Python</li>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                        </ul>
-                </div>
-                <div class = "test">
-                    <h2>Projects</h2>
-                    <p>I've completed Java projects for school that implement data strucutres such as hash tables, 
-                        binary trees, and graphs.
+                    <p>package nicholasMcGee</p>
+                    <p></br>public class <span class = "blue">Info</span> {</p>
+                    
+                    <p class = "tab"></br>public static void <span class = "purple">main</span> (<span class = "blue">String</span>[] <span class = "lightPurple">args</span>) {</p>
+                    <p class = "tab2">
+                        <span class = "green">// URLS</span><br/>
+                        <span class = "blue">String</span> <span class = "purple">github</span> = <span class = "red">"https://github.com/Nick-McGee"</span>;<br/>
+                        <span class = "blue">String</span> <span class = "purple">linkedin</span> = <span class = "red">"https://www.linkedin.com/in/nicholas-mcgee-35b799177/"</span>;<br/>
+                        <br/>
+
+                        <span class = "green">// Education</span><br/>
+                        <span class = "blue">String</span> <span class = "purple">school</span> = <span class = "red">"The University of British Columbia, Okanagan"</span>;<br/>
+                        <span class = "blue">String</span> <span class = "purple">year</span>  = <span class = "red">"second"</span>;<br/>
+                        <span class = "blue">String</span> <span class = "purple">major</span> = <span class = "red">"Computer Science"</span>;<br/>
+                        <br/>
+
+                        <span class = "green">// Experience and Learning</span><br/>
+                        <span class = "blue">String</span>[] <span class = "purple">experience</span>  = {<span class = "red">"java"</span>, <span class = "red">"git"</span>, <span class = "red">"data structures"</span>};<br/>
+                        <span class = "blue">String</span>[] <span class = "purple">learning</span>  = {<span class = "red">"python"</span>, <span class = "red">"html"</span>, <span class = "red">"css"</span>};<br/>
+                        <br/>
+
+                        <span class = "green">// Projects</span><br/>
+                        <span class = "blue">String</span>[] <span class = "purple">projects</span>  = {<span class = "red">"This website"</span>, <span class = "red">"tbd"</span>};<br/>
+                        </br>
+
+                        <span class = "green">// Print intro and education</span><br/>
+                        <span class = "blue">System</span>.<span class = "orange">out</span>.println(<span class = "red">"Hi, I'm Nick!"</span>)</br>
+                        <span class = "blue">System</span>.<span class = "orange">out</span>.println(<span class = "red">"I'm currently a "</span> + <span class = "lightPurple">year</span> + <span class = "red">" year student studying "</span> + <span class = "lightPurple">major</span> + <span class = "red">" at "</span> + <span class = "lightPurple">school</span> + <span class = "red">"."</span>);<br/>
+                        </br>
+
+                        <span class = "green">// Print URLS</span><br/>
+                        <span class = "blue">System</span>.<span class = "orange">out</span>.println(<span class = "red">"\nGithub: " </span> + <span class = "lightPurple"> github</span>);</br>
+                        <span class = "blue">System</span>.<span class = "orange">out</span>.println(<span class = "red">"LinkedIn: " </span> + <span class = "lightPurple"> linkedin</span>);</br>
+                        </br>
+
+                        <span class = "green">// Print experience</span><br/>
+                        <span class = "blue">System</span>.<span class = "orange">out</span>.println(<span class = "red">"\nI have experience with these programming languages and technlogies:"</span>);<br/>
+                        for(<span class = "blue">String</span> <span class = "purple">exp</span> : <span class = "lightPurple">experience</span>)<br/>
+                    </p>    
+
+                    <p class = "tab3"><span class = "blue">System</span>.<span class = "orange">out</span>.println(<span class = "red">"-"</span> + <span class = "lightPurple">exp</span>);</p>
+
+                    <p class = "tab2">
+                        </br>
+                        <span class = "green">// Print currently learning</span><br/>
+                        <span class = "blue">System</span>.<span class = "orange">out</span>.println(<span class = "red">"\nI'm currently learning these languages and technolgies:"</span>);<br/>
+                        for(<span class = "blue">String</span> <span class = "purple">lrn</span> : <span class = "lightPurple">learning</span>)<br/>
                     </p>
+
+                    <p class = "tab3"><span class = "blue">System</span>.<span class = "orange">out</span>.println(<span class = "red">"-"</span> + <span class = "lightPurple">lrn</span>);</p>
+
+                    <p class = "tab2">
+                        <br/>
+                        <span class = "green">// Print projects list</span><br/>
+                        <span class = "blue">System</span>.<span class = "orange">out</span>.println(<span class = "red">"\nThese are the projects I've worked on:"</span>);<br/>
+                        for(<span class = "blue">String</span> <span class = "purple">prj</span> : <span class = "lightPurple">projects</span>)<br/>
+                    </p>
+
+                    <p class = "tab3"><span class = "blue">System</span>.<span class = "orange">out</span>.println(<span class = "red">"-"</span> + <span class = "lightPurple">prj</span>);</p>
+
+                    <p class = "tab">}</p>  
+
+                    <p>}</p>
                 </div>
             </div>
+            <!--<div class = "introAndConsole">-->
+                <!--<div class = "intro">
+                    <h1>{Nicholas McGee}</h1>
+                    <a href="https://github.com/Nick-McGee" target="_blank">Github</a>
+                    <a href="https://www.linkedin.com/in/nicholas-mcgee-35b799177/" target="_blank">LinkedIn</a>
+                    <p id = "introP">Computer Science Student</p>
+                </div>-->
+            <div class = "console">
+                <p>nicholasmcgee ~ $ ./website</br></p>
+                <p>Hi, I'm Nick!</p>
+                <p>I'm currently a second year student studying Computer Science at The University of British Columbia, Okanagan.</p>
+                <p></br>Github: 
+                    <a href="https://github.com/Nick-McGee" target="_blank">https://github.com/Nick-McGee</a>
+                </p>
+                <p>LinkedIn: 
+                    <a href="https://www.linkedin.com/in/nicholas-mcgee-35b799177/" target="_blank">https://www.linkedin.com/in/nicholas-mcgee-35b799177/</a>
+                </p>
+                <p></br>I have experience with these programming languages and technlogies:
+                    </br>-java
+                    </br>-git
+                    </br>-data structures
+                </p>
+                <p></br>I'm currently learning these languages and technolgies:
+                    </br>-python
+                    </br>-html
+                    </br>-css
+                </p>
+                <p></br>These are the projects I've worked on:
+                    </br>-This website
+                    </br>-tbd
+                </p>
+            </div>
+            <!--</div>-->
         </div>
     </body>
 </html>
