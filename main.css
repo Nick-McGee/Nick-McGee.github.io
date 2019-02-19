@@ -1,19 +1,22 @@
 /*Coding IDE Background*/
 body {
     background-color: #1D1F20;
+    overflow: auto;
+    font-size: 1.25vw
 }
 
 /*Text font and colour*/
 * {
     color: aliceblue;
     font-family: 'Inconsolata', monospace;
+    margin: 0;
+    padding: 0;
 }
 
 /*Site size for desktop*/
 @media only screen and (min-device-width: 600px) {
     .infoAndIntro {
-        display: flex;
-        margin: -8px;
+        top: 0; bottom: 0; left: 0; right: 0;
         /*border: 1px solid yellow;*/
     }
 }
@@ -51,32 +54,22 @@ body {
 
 /*Divs for console and code*/
 .info {
-    display: flexbox;
-    padding: 2%;
     width: 60%;
-    margin: -8px;
+    padding: 25px;
     /*border: 1px solid red;*/
 }
 .console {
-    display: flexbox;
-    padding: 1%;
-    width: 40%;
-    margin: -8px;
+    padding: 20px;
+    width: 30%;
+    height: 3200px;
+    top: 0; right: 0;
+    position: fixed;
     background-color:black;
     /*border: 1px solid green;*/
 }
 
 /*Text size on desktop*/
-@media only screen and (min-device-width: 600px) {
-    p, a{
-        font-size: 15px;
-        margin: 0px;
-        animation: fadein 1.5s;
-        -moz-animation: fadein 1.5s; /* Firefox */
-        -webkit-animation: fadein 1.5s; /* Safari and Chrome */
-        -o-animation: fadein 1.5s; /* Opera */
-    }
-}
+
 a:hover{
     color: rgb(200, 207, 214);
 }
