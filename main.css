@@ -6,11 +6,6 @@
         font-size:calc(50% + 0.5vw)
     }
 
-    .infoAndConsole {
-        top: 0; bottom: 0; left: 0; right: 0;
-        position: absolute; 
-        /*border: 1px solid yellow;*/
-    }
     .info {
         padding: 2%;
         display: inline-block;
@@ -19,13 +14,12 @@
     }
     .console {
         padding: 2%;
-        padding-bottom: 100%;
-        margin-bottom: -100%;
+        top: 0; bottom: 0;
         float: right;
         width: 30%;
-        overflow: hidden;
+        overflow: auto;
         background-color:black;
-        /*border: 1px solid green;*/
+        border: 2px solid grey;
     }
 }
 
@@ -35,11 +29,7 @@
         background-color: black;
         font-size: 50px;
     }
-
-    .infoAndIntro {
-        top: 0; bottom: 0; left: 0; right: 0;
-        border: 1px solid yellow;
-    }
+    
     /*Code goes invisible on mobile*/
     .info {
         visibility: hidden;
