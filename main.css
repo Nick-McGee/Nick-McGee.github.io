@@ -24,21 +24,24 @@ p {
     body {
         font-size:calc(50% + 0.5vw)
     }
-    .infoAndIntro {
+    .infoAndConsole {
         top: 0; bottom: 0; left: 0; right: 0;
+        position: absolute; 
         /*border: 1px solid yellow;*/
     }
     .info {
-        width: 60%;
+        display: inline-block;
+        width: 50%;
         padding: 25px;
         /*border: 1px solid red;*/
     }
     .console {
-        padding: 20px;
+        padding: 25px;
+        padding-bottom: 100%;
+        margin-bottom: -100%;
+        overflow: hidden;
+        float: right;
         width: 30%;
-        height: 3200px;
-        top: 0; right: 0;
-        position: fixed;
         background-color:black;
         /*border: 1px solid green;*/
     }
