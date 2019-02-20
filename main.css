@@ -9,7 +9,7 @@
     .info {
         padding: 2%;
         display: inline-block;
-        width: 50%;
+        width: 60%;
         /*border: 1px solid red;*/
     }
     .console {
@@ -29,7 +29,7 @@
         background-color: black;
         font-size: 50px;
     }
-    
+
     /*Code goes invisible on mobile*/
     .info {
         visibility: hidden;
