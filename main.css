@@ -1,53 +1,39 @@
-/*Text fade in*/
-p {
-    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: fadein 2s; /* Firefox < 16 */
-     -ms-animation: fadein 2s; /* Internet Explorer */
-      -o-animation: fadein 2s; /* Opera < 12.1 */
-         animation: fadein 2s;
-}
-/*Text font and colour*/
-* {
-    color: aliceblue;
-    font-family: 'Inconsolata', monospace;
-    margin: 0;
-    padding: 0;
-}
-
-/*Site size for desktop*/
+/*Site size and layout for desktop*/
 @media only screen and (min-device-width: 600px) {
     body {
         background-color: #1D1F20;
         overflow: auto;
         font-size:calc(50% + 0.5vw)
     }
+
     .infoAndConsole {
         top: 0; bottom: 0; left: 0; right: 0;
         position: absolute; 
         /*border: 1px solid yellow;*/
     }
     .info {
+        padding: 2%;
         display: inline-block;
         width: 50%;
-        padding: 25px;
         /*border: 1px solid red;*/
     }
     .console {
-        padding: 25px;
+        padding: 2%;
         padding-bottom: 100%;
         margin-bottom: -100%;
-        overflow: hidden;
         float: right;
         width: 30%;
+        overflow: hidden;
         background-color:black;
         /*border: 1px solid green;*/
     }
 }
 
-/*Site size for mobile*/
+/*Site size and layout for mobile*/
 @media only screen and (max-device-width: 600px) {
     body {
         background-color: black;
+        font-size: 50px;
     }
 
     .infoAndIntro {
@@ -61,23 +47,19 @@ p {
         /*border: 1px solid red;*/
     }
     .console {
-        position: absolute;
         padding: 15px;
-        font-size: 50px;
+        position: absolute;
         background-color:black;
        /*border: 1px solid green;*/
     }
 }
 
-/*Tabs for code indenting*/
-.tab {
-    margin-left:40px;
-}
-.tab2 {
-    margin-left: 80px;
-}
-.tab3 {
-    margin-left: 120px;
+/*Text font and colour*/
+* {
+    color: aliceblue;
+    font-family: 'Inconsolata', monospace;
+    margin: 0;
+    padding: 0;
 }
 
 /*Colors for syntax highlighting*/
@@ -100,11 +82,33 @@ p {
     color: #F0C674;
 }
 
+
+/*Tabs for code indenting*/
+.tab {
+    margin-left: 5%;
+}
+.tab2 {
+    margin-left: 10%;
+}
+.tab3 {
+    margin-left: 15%;
+}
+
+/*Links hover effect*/
 a:hover{
     color: rgb(200, 207, 214);
 }
 
-/*Fade code*/
+/*Text fadein*/
+p {
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s; /* Firefox < 16 */
+     -ms-animation: fadein 2s; /* Internet Explorer */
+      -o-animation: fadein 2s; /* Opera < 12.1 */
+         animation: fadein 2s;
+}
+
+/*Fadein code*/
 @keyframes fadein {
     from {
         opacity:0;
