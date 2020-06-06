@@ -6,7 +6,6 @@
     
     .container {
         display: flex;
-        width: 100%;
         flex-direction: row;
         font-size: 0.9rem;
         line-height: 1.1rem;
