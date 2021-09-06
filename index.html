@@ -1,128 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<html>
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>nicholasmcgee -- -bash</title>
-    <style>@import url('https://fonts.googleapis.com/css?family=Inconsolata');</style>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/cards.css">
+    <title>Nicholas McGee</title>
 </head>
 <body>
     <div class="container">
-        <!--Info portion. NOT DISPLAYED ON MOBILE-->
-        <div class = "info">
-            <p>package nicholasMcGee</p>
-            <p><br>public class <span class = "blue">AboutMe</span> {</p>
-            
-            <p class = "tab"></br>public static void <span class = "purple">main</span> (<span class = "blue">String</span>[] <span class = "lightPurple">args</span>) {</p>
-            <p class = "tab2">
-                <!--URL Code Vars-->
-                <span class = "green">// URLS</span><br/>
-                <span class = "blue">String</span> <span class = "purple">github</span> = <span class = "red">"https://github.com/Nick-McGee"</span>;<br/>
-                <span class = "blue">String</span> <span class = "purple">linkedin</span> = <span class = "red">"https://www.linkedin.com/in/nicholas-mcgee-35b799177/"</span>;<br/>
-                <br/>
-                <!--Education Code Vars-->
-                <span class = "green">// Education</span><br/>
-                <span class = "blue">String</span> <span class = "purple">school</span> = <span class = "red">"The University of British Columbia, Okanagan"</span>;<br/>
-                <span class = "blue">String</span> <span class = "purple">year</span>  = <span class = "red">"fourth"</span>;<br/>
-                <span class = "blue">String</span> <span class = "purple">major</span> = <span class = "red">"Computer Science"</span>;<br/>
-                <br/>
-                <!--Experience and Learning Vars-->
-                <span class = "green">// Experience and Learning</span><br/>
-                <span class = "blue">String</span>[] <span class = "purple">experience</span>  = {<span class = "red">"java"</span>, <span class = "red">"python"</span>, <span class = "red">"git"</span>, <span class = "red">"data structures"</span>};<br/>
-                <span class = "blue">String</span>[] <span class = "purple">learning</span>  = {<span class = "red">"javascript"</span>, <span class = "red">"html"</span>, <span class = "red">"css"</span>};<br/>
-                <br/>
-                <!--Projects Vars-->
-                <span class = "green">// Projects</span><br/>
-                <span class = "blue">String</span>[] <span class = "purple">projects</span>  = {<span class = "red">"This website"</span>, <span class = "red">"MyUni"</span>, <span class = "red">"Classic Consoles Shop"</span>};<br/>
-                </br>
-                <!--Print Intro and Education Vars-->
-                <span class = "green">// Print intro and education</span><br/>
-                <span class = "blue">System</span>.<span class = "orange">out</span>.println(<span class = "red">"Hi, I'm Nick!"</span>)</br>
-                <span class = "blue">System</span>.<span class = "orange">out</span>.println(<span class = "red">"I'm currently a "</span> + <span class = "lightPurple">year</span> + <span class = "red">" year student studying "</span> + <span class = "lightPurple">major</span> + <span class = "red">" at "</span> + <span class = "lightPurple">school</span> + <span class = "red">"."</span>);<br/>
-                </br>
-                <!--Print URLS-->
-                <span class = "green">// Print URLS</span><br/>
-                <span class = "blue">System</span>.<span class = "orange">out</span>.println(<span class = "red">"\nGithub: " </span> + <span class = "lightPurple"> github</span>);</br>
-                <span class = "blue">System</span>.<span class = "orange">out</span>.println(<span class = "red">"LinkedIn: " </span> + <span class = "lightPurple"> linkedin</span>);</br>
-                </br>
-                <!--Print Experience Vars-->
-                <span class = "green">// Print experience</span><br/>
-                <span class = "blue">System</span>.<span class = "orange">out</span>.println(<span class = "red">"\nI have experience with these programming languages and technologies:"</span>);<br/>
-                for(<span class = "blue">String</span> <span class = "purple">exp</span> : <span class = "lightPurple">experience</span>)<br/>
-            </p>    
-            
-            <!--Within Experience For Loop-->
-            <p class = "tab3"><span class = "blue">System</span>.<span class = "orange">out</span>.println(<span class = "red">"-"</span> + <span class = "lightPurple">exp</span>);</p>
+        <div class="info">    
+            <h1 id="name">Nicholas McGee</h1>
+            <p id="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus corrupti sed libero molestias earum ab dolorum facere adipisci in fuga quos labore a voluptates dolor veniam, nihil exercitationem nobis beatae, quia assumenda aspernatur perspiciatis nostrum ad. Nulla corporis modi porro mollitia perferendis laudantium iure maiores, corrupti libero, debitis eligendi dolores quo veritatis ab labore exercitationem in a sint impedit voluptates, ad nesciunt quisquam. Ab, vel dolore! Possimus adipisci ad deleniti voluptates vel architecto, deserunt dolores!</p>
 
-            <p class = "tab2">
-                </br>
-                <!--Print Currently Learning Vars-->
-                <span class = "green">// Print currently learning</span><br/>
-                <span class = "blue">System</span>.<span class = "orange">out</span>.println(<span class = "red">"\nI'm currently learning these languages and technologies:"</span>);<br/>
-                for(<span class = "blue">String</span> <span class = "purple">lrn</span> : <span class = "lightPurple">learning</span>)<br/>
-            </p>
-            
-            <!--Within Currently Learning For Loop-->
-            <p class = "tab3"><span class = "blue">System</span>.<span class = "orange">out</span>.println(<span class = "red">"-"</span> + <span class = "lightPurple">lrn</span>);</p>
-
-            <!--Print Projects List Vars-->
-            <p class = "tab2">
-                <br/>
-                <span class = "green">// Print projects list</span><br/>
-                <span class = "blue">System</span>.<span class = "orange">out</span>.println(<span class = "red">"\nThese are the projects I've worked on:"</span>);<br/>
-                for(<span class = "blue">String</span> <span class = "purple">prj</span> : <span class = "lightPurple">projects</span>)<br/>
-            </p>
-
-            <!--Within Projects List For Loop-->
-            <p class="tab3"><span class="blue">System</span>.<span class="orange">out</span>.println(<span class="red">"-"</span> + <span class="lightPurple">prj</span>);</p>
-
-            <p class = "tab">}</p>  
-
-            <p>}</p>
+            <div class="buttons">
+                <a class="link" href="https://www.google.com"><button>Resume</button></a>
+                <a class="link" href="https://github.com/Nick-McGee"><button>Github</button></a>
+                <a class="link" href="https://www.linkedin.com/in/nicholas-r-mcgee/"><button>LinkedIn</button></a>
+            </div>
         </div>
 
-        <!--Console portion-->
-        <div class="console">
-            <!--Intro and such in the console-->
-            <p>nicholasmcgee ~ $ java nicholasMcGee.AboutMe</br></p>
-            <p>Hi, I'm Nick!</p>
-            <p>I'm currently a fourth year student studying Computer Science at The University of British Columbia, Okanagan.</p>
-            
-            <!--Github Link-->
-            <p>
-                </br>Github: <a href="https://github.com/Nick-McGee" target="_blank">https://github.com/Nick-McGee</a>
-            </p>
-            <!--LinkedIn Link-->
-            <p>
-                LinkedIn: <a href="https://www.linkedin.com/in/nicholas-mcgee-35b799177/" target="_blank">https://www.linkedin.com/in/nicholas-mcgee-35b799177/</a>
-            </p>
-            <!--Experience-->
-            <p>
-                </br>I have experience with these programming languages and technologies:
-                </br>-java
-                </br>-python
-                </br>-git
-                </br>-data structures
-            </p>
-            <!--Learning-->
-            <p>
-                </br>I'm currently learning these languages and technologies:
-                </br>-javascript
-                </br>-html
-                </br>-css
-            </p>
-            <!--Projects-->
-            <p>
-                </br>These are the projects I've worked on:
-                </br>-<a href="https://github.com/Nick-McGee/Nick-McGee.github.io" target="_blank">This Website</a>
-                </br>-<a href="https://devpost.com/software/myuni" target="_blank">MyUni</a>
-                </br>-<a href="https://github.com/Nick-McGee/consoleShop" target="_blank">Classic Consoles Shop</a>
-            </p>
-            </br>
-            <p class="text">nicholasmcgee ~ $ </p>
+        <div class="projects">
+            <div class="project" id="project-1">
+                <img class="project-image" id="project-image-1" src="minecraft.png">
+                <h3 class="project-title">Minecraft Education ML Lessons</h3>
+                <p class="project-purpose">Microsoft and Mojang Capstone</p>
+                <p class="project-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et nesciunt atque repellendus laborum ut quasi maiores repellat, odio corporis, excepturi illo. Id voluptatibus minus maiores.</p>
+                <button class="project-link">Go to</button>
+            </div>
+
+            <div class="project" id="project-2">
+                <img class="project-image" id="project-image-2" src="t3Blogs.png">
+                <h3 class="project-title">T3 Sports Blog</h3>
+                <p class="project-purpose">COSC 360 Group Project</p>
+                <p class="project-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et nesciunt atque repellendus laborum ut quasi maiores repellat, odio corporis, excepturi illo. Id voluptatibus minus maiores.</p>
+                <button class="project-link">Go to</button>
+            </div>
+
+            <div class="project" id="project-3">
+                <img class="project-image" id="project-image-3" src="decisionTree.png">
+                <h3 class="project-title">Decision Trees for Predicing NBA Fantasy Points</h3>
+                <p class="project-purpose">COSC 419M Group Project</p>
+                <p class="project-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et nesciunt atque repellendus laborum ut quasi maiores repellat, odio corporis, excepturi illo. Id voluptatibus minus maiores.</p>
+                <button class="project-link">Go to</button>
+            </div>
         </div>
-    </div>
+    <div>
+
 </body>
 </html>
