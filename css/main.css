@@ -36,7 +36,7 @@
 body {
     background-color: #F0F0F3;
     font-family: 'Rubik', sans-serif;
-    font-size: max(0.8vw, 12px);
+    font-size: max(0.8vw, 15px);
     color: #728AB7;
 }
 
@@ -54,6 +54,7 @@ body {
 .projects {
     width: 80%;
     display: flex;
+    margin-bottom: 15px;
 }
 
 .buttons {
