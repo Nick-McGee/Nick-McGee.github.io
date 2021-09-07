@@ -63,6 +63,10 @@ body {
     padding: 1rem 1rem 1rem 0;
 }
 
+i {
+    font-size: 20px;
+}
+
 button {
     padding: 1em 0.7em;
     font-size: max(0.8vw, 15px);
