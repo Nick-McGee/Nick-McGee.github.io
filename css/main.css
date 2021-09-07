@@ -37,7 +37,7 @@ body {
     background-color: #F0F0F3;
     font-family: 'Rubik', sans-serif;
     font-size: max(0.8vw, 15px);
-    color: #728AB7;
+    color: #5a6d90;
 }
 
 .container {
@@ -70,6 +70,7 @@ i {
 button {
     padding: 1em 0.7em;
     font-size: max(0.8vw, 15px);
+    font-weight: bold;
     background: #F0F0F3;
     border: none;
     border-radius: .5rem;
