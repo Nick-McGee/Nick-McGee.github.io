@@ -17,7 +17,7 @@
     display: flex;
     flex-direction: column;
     padding: 1rem 1rem;
-    background: var(--lightColor);
+    background: var(--primaryColor);
     border: none;
     border-radius: .5rem;
     color: var(--darkColor);
@@ -25,6 +25,54 @@
                 -6px -6px 10px rgba(255, 255, 255, .5),
                 6px 6px 8px rgba(255, 255, 255, .075),
                 6px 6px 10px rgba(0, 0, 0, .15);
+}
+
+#project-image-1 {
+    box-shadow: -6px -6px 14px rgba(255, 255, 255, .7),
+                -6px -6px 10px rgba(255, 255, 255, .5),
+                6px 6px 8px rgba(13, 153, 0, 0.075),
+                6px 6px 10px rgba(0, 87, 26, 0.15);
+}
+
+#project-image-2 {
+    box-shadow: -6px -6px 14px rgba(255, 255, 255, .7),
+                -6px -6px 10px rgba(255, 255, 255, .5),
+                6px 6px 8px rgba(196, 104, 0, 0.075),
+                6px 6px 10px rgba(110, 44, 0, 0.15);
+}
+
+#project-image-3 {
+    box-shadow: -6px -6px 14px rgba(255, 255, 255, .7),
+                -6px -6px 10px rgba(255, 255, 255, .5),
+                6px 6px 8px rgba(255, 255, 255, .075),
+                6px 6px 10px rgba(0, 0, 0, .15);
+}
+
+@media (prefers-color-scheme: dark) {
+    .project {
+        box-shadow: -6px -6px 14px rgba(51, 62, 83, 0.5),
+                    -6px -6px 10px rgba(51, 62, 83, .3),
+                    6px 6px 8px rgba(51, 62, 83, .3),
+                    6px 6px 10px rgba(0, 0, 0, .4);
+    }
+    #project-image-1 {
+        box-shadow: -6px -6px 14px rgba(51, 62, 83, 0.5),
+                    -6px -6px 10px rgba(51, 62, 83, .3),
+                    6px 6px 8px rgba(13, 153, 0, 0.075),
+                    6px 6px 10px rgba(0, 87, 26, 0.15);
+    }
+    #project-image-2 {
+        box-shadow: -6px -6px 14px rgba(51, 62, 83, 0.5),
+                    -6px -6px 10px rgba(51, 62, 83, .3),
+                    6px 6px 8px rgba(196, 104, 0, 0.075),
+                    6px 6px 10px rgba(110, 44, 0, 0.15);
+    }
+    #project-image-3 {
+        box-shadow: -6px -6px 14px rgba(51, 62, 83, 0.5),
+                    -6px -6px 10px rgba(51, 62, 83, .3),
+                    6px 6px 8px rgba(255, 255, 255, .075),
+                    6px 6px 10px rgba(0, 0, 0, .15);
+    }
 }
 
 .project-image {
@@ -52,25 +100,4 @@
 .project-link {
     margin-top: auto;
     width: 100%;
-}
-
-#project-image-1 {
-    box-shadow: -6px -6px 14px rgba(255, 255, 255, .7),
-                -6px -6px 10px rgba(255, 255, 255, .5),
-                6px 6px 8px rgba(13, 153, 0, 0.075),
-                6px 6px 10px rgba(0, 87, 26, 0.15);
-}
-
-#project-image-2 {
-    box-shadow: -6px -6px 14px rgba(255, 255, 255, .7),
-                -6px -6px 10px rgba(255, 255, 255, .5),
-                6px 6px 8px rgba(196, 104, 0, 0.075),
-                6px 6px 10px rgba(110, 44, 0, 0.15);
-}
-
-#project-image-3 {
-    box-shadow: -6px -6px 14px rgba(255, 255, 255, .7),
-                -6px -6px 10px rgba(255, 255, 255, .5),
-                6px 6px 8px rgba(255, 255, 255, .075),
-                6px 6px 10px rgba(0, 0, 0, .15);
 }
