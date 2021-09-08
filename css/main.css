@@ -10,6 +10,10 @@
     .info {
         width: 90%;
     }
+
+    .buttons {
+        justify-content: center;
+    }
 }
 
 @media screen and (min-width: 1100px) {
@@ -56,7 +60,6 @@ body {
 .buttons {
     width: 100%;
     display: flex;
-    justify-content: flex-start;
 }
 
 .link {
@@ -64,12 +67,13 @@ body {
 }
 
 i {
-    font-size: 20px;
+    font-size: 23px;
 }
 
 button {
     padding: 1em 0.7em;
     font-size: max(0.8vw, 15px);
+    font-weight: bold;
     background: #F0F0F3;
     border: none;
     border-radius: .5rem;
@@ -95,6 +99,8 @@ button:active {
                 inset 2px 2px 2px rgba(255, 255, 255, .075),
                 inset 2px 2px 4px rgba(0, 0, 0, .15);
 }
+
+
 
 
 #name {
