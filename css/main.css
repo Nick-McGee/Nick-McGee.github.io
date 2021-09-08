@@ -5,6 +5,7 @@
         flex-direction: column;
         align-items: center;
         width: 90%;
+        margin-bottom: 30px;
     }
 
     .info {
@@ -54,7 +55,6 @@ body {
 
 .projects {
     display: flex;
-    margin-bottom: 15px;
 }
 
 .buttons {
